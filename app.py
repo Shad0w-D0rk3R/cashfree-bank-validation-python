@@ -3,15 +3,16 @@ from cashfree_sdk.payouts.validations import Validations
 
 clientId = "clientId"
 clientSecret = "clientSecret"
+env = "TEST"
 
 try:
-    Payouts.init(clientId, clientSecret, "TEST")
-    bank_validation_result = Validations.bank_details_validation(**{
-        "name": "sameera",
-        "phone": "9000000000",
-        "bankAccount": "026291800001191",
-        "ifsc": "YESB0000262"
-    })
+    Payouts.init(clientId, clientSecret, env)
+    bank_validation_result = Validations.bank_details_validation(
+        name= "sameera",
+        phone= "9000000000",
+        bankAccount= "026291800001191",
+        ifsc= "YESB0000262"
+    )
     print("bank validation")
     print(bank_validation_result.content)
 except Exception as err:
