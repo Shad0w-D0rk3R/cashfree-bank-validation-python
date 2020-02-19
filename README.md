@@ -39,7 +39,7 @@ Your IP has to be whitelisted to hit Cashfree's server. For more information ple
 
 ### Bank Details:
 
-The following kit needs bank account details to validate the bank account. For a list of required fields go [here](https://dev.cashfree.com/api-reference/payouts-api#bank-validation)
+The following kit needs bank account details to validate the bank account. For a list of required fields go [here](https://dev.cashfree.com/api-reference/payouts-api#bank-verification)
 <br/>
 The kit picks up the bank account details from the app.py file as the object passed to bank_details_validation method. Required fields are:
   1. name: name of the account to be verified.
