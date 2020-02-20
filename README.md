@@ -10,7 +10,7 @@ This kit is linked to the Bank Validation flow. Go [here](https://dev.cashfree.c
 
 The following kit contains the following functionalities:
     <ol>
-    <li> init: to initialise the SDK.
+    <li> init: to initialize the SDK.
     <li> Validations.bank_details_validation: to verify bank account.
     </ol>
 <br/>
