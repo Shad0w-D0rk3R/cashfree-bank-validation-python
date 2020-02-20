@@ -14,13 +14,13 @@ The following kit contains the following functionalities:
     <li> Validations.bank_details_validation: to verify bank account.
     </ol>
 <br/>
-You can get more information on the python sdk [here](https://github.com/cashfree/cashfree-sdk-python).
+You can get more information on the python SDK [here](https://github.com/cashfree/cashfree-sdk-python).
 
 ## Build Steps
 
 follow the following build steps to compile the Integration kit:
   1. Download the code and cd into the directory containing the code.
-  2. install the following dependancy Cashfree python sdk
+  2. install the following dependancy Cashfree python SDK
   ```
   pip3 install git+https://github.com/cashfree/cashfree-sdk-python.git
   ```
