@@ -1,3 +1,10 @@
+'''
+Below is an integration flow on how to use Cashfree's payouts SDK. The SDK can be found at: https://github.com/cashfree/cashfree-sdk-python
+Please go through the payout docs here: https://dev.cashfree.com/payouts
+The following script contains the following functionalities :
+    1. Validations.bank_details_validation -> validate bank account
+'''
+
 from cashfree_sdk.payouts import Payouts
 from cashfree_sdk.payouts.validations import Validations
 
