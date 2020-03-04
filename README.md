@@ -22,7 +22,7 @@ follow the following build steps to compile the Integration kit:
   1. Download the code and cd into the directory containing the code.
   2. install the following dependancy Cashfree python SDK
   ```
-  pip3 install git+https://github.com/cashfree/cashfree-sdk-python.git
+  pip3 install cashfree-sdk
   ```
 ## Set Up
 
